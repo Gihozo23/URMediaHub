@@ -7,7 +7,7 @@
 .URlogo {
     background-position: 2em 50%;
     background-size: 240px;
-    height: 35px;
+    height: 40px;
     width: 30%;
     margin: 0 !important;
     float: left;
@@ -208,7 +208,24 @@
     background: var(--primary);
     border-color: var(--primary);
 }
-
+.page-headerone {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/contactus.PNG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.page-headertwo {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/aboutus.jpg);
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.page-headerthree {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/achievements.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 .page-header {
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
     background-position: center center;
